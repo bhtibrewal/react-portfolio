@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { IPost } from "./type";
 
 export const BlogCard = ({ post }: { post: IPost }) => {
@@ -5,7 +6,7 @@ export const BlogCard = ({ post }: { post: IPost }) => {
   return (
     <div className="hashnode-blog-post-card">
       <div className="hashnode-blog-post-card-cover">
-        <img
+        <Image
           className="hashnode-blog-post-card-cover-image"
           alt={slug}
           src={coverImage}

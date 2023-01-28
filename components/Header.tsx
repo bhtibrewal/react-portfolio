@@ -46,9 +46,9 @@ const Header: FC = () => {
           </clipPath>
         </defs>
 
-        <g clip-path="url(#maskImage)" transform="translate(0 -7)">
+        <g clipPath="url(#maskImage)" transform="translate(0 -7)">
           <image
-            clip-path="url(#maskBackground)"
+            clipPath="url(#maskBackground)"
             width="120"
             height="150"
             x="70"
@@ -62,7 +62,6 @@ const Header: FC = () => {
             height="144"
             x="-13"
             y="-25"
-            fill="none"
             className="image__foreground"
             href="https://res.cloudinary.com/bhtibrewal-cloud/image/upload/v1655642182/h5ghag2htpktqojdpbgl.png"
           />

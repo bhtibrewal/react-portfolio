@@ -30,6 +30,7 @@ const Index: FC = () => {
                   <a
                     href={href}
                     target="_blank"
+                    rel="noreferrer"
                     aria-label={`my ${label} profile`}
                   >
                     <Icon size={24} aria-hidden="true" />

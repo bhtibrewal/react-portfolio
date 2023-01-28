@@ -8,7 +8,7 @@ const Index: FC = () => {
   return (
     <StyledSection id="aboutme">
       <div className="section__content">
-        <Image src={Character} layout="responsive" />
+        <Image alt='vector illustration on girl' src={Character} layout="responsive" />
         <About />
         <Technologies />
       </div>
