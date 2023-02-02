@@ -3,49 +3,67 @@ import { Project } from "../../interface";
 
 export const StyledProject = styled.li`
   margin-bottom: 8rem;
-  box-shadow: var(--box-shadow-md);
-  background-color: var(--color-black-200);
-  width: 100%;
-  max-width: 53rem;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: var(--border-rad-md);
-  overflow: hidden;
 
-  &:last-child {
-    margin-bottom: 5rem;
+  &:nth-child(even) {
+    article {
+      flex-direction: row-reverse;
+    }
+    .project {
+      &__details {
+        align-items: flex-start;
+      }
+      &__para {
+        margin-right: -2rem;
+        margin-left: 0;
+      }
+    }
   }
 
   article {
     display: flex;
-    flex-direction: column;
-    position: relative;
-    height: 100%;
+    align-items: center;
   }
 
   h3 {
     margin-bottom: 1rem;
-  }
-
-  p {
-    color: var(--color-gray-800);
-  }
-
-  section {
-    padding: 2.5rem 2.5rem;
+    font-size: 1.5em;
+    color: var(--color-red-100);
   }
 
   .project {
     &__para {
       margin-bottom: 1rem;
+      margin-left: -2rem;
+      z-index: 1;
+      border-radius: 6px;
+      color: var(--bg-blurred);
+      background: linear-gradient(
+        to top left,
+        var(--color-red),
+        var(--color-red-100)
+      );
+      padding: 2rem;
+      box-shadow: inset 0 -23px 25px 0 rgb(0 0 0 / 17%),
+        inset 0 -36px 30px 0 rgb(0 0 0 / 15%),
+        inset 0 -79px 40px 0 rgb(0 0 0 / 10%), 0 2px 1px rgb(0 0 0 / 6%),
+        0 4px 2px rgb(0 0 0 / 9%), 0 8px 4px rgb(0 0 0 / 9%),
+        0 16px 8px rgb(0 0 0 / 9%), 0 32px 16px rgb(0 0 0 / 9%);
     }
 
     &__details {
       height: 100%;
+      align-items: flex-end;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    &__tech {
+      font-size: 1.5em;
     }
 
     &__links {
-      margin-top: 3rem;
+      margin-top: 1rem;
       display: flex;
       align-items: center;
       justify-content: flex-start;
@@ -88,6 +106,8 @@ export const StyledProject = styled.li`
     &__figures {
       width: 100%;
       position: relative;
+      border-radius: 6px;
+      overflow: hidden;
     }
 
     &__btn__bg {
@@ -126,24 +146,8 @@ export const StyledProject = styled.li`
   }
 
   @media screen and (min-width: 769px) {
-    margin-bottom: 0;
-    height: 100%;
-
-    &:nth-child(even) {
-      article {
-      }
-    }
-
-    article {
-      align-items: stretch;
-    }
-
     .project {
       &__details {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
       }
 
       &__figures {

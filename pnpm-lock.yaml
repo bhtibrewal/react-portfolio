@@ -9,8 +9,9 @@ specifiers:
   '@babel/core': ^7.20.12
   '@types/node': 16.11.12
   '@types/react': 17.0.2
-  '@types/styled-components': ^5.1.17
-  babel-plugin-styled-components: ^2.0.2
+  '@types/react-icons': ^3.0.0
+  '@types/styled-components': ^5.1.25
+  babel-plugin-styled-components: ^2.0.7
   eslint: 8.4.1
   eslint-config-next: 12.0.7
   graphql: ^16.6.0
@@ -18,15 +19,16 @@ specifiers:
   prettier: 2.7.1
   react: 17.0.2
   react-dom: 17.0.2
-  react-icons: ^4.3.1
-  react-player: ^2.9.0
+  react-icons: ^4.4.0
+  react-player: ^2.10.1
   react-reveal: ^1.2.2
-  styled-components: ^5.3.3
+  styled-components: ^5.3.5
   typescript: 4.5.3
 
 dependencies:
   '@apollo/client': 3.7.5_4acpsgwrblrf7yma4ztoevvkgq
   '@babel/core': 7.20.12
+  '@types/react-icons': 3.0.0_react@17.0.2
   graphql: 16.6.0
   next: 12.0.7_jiuppbrrdpqsioctsbaxdlfu4e
   react: 17.0.2
@@ -691,6 +693,15 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
+  /@types/react-icons/3.0.0_react@17.0.2:
+    resolution: {integrity: sha512-Vefs6LkLqF61vfV7AiAqls+vpR94q67gunhMueDznG+msAkrYgRxl7gYjNem/kZ+as2l2mNChmF1jRZzzQQtMg==}
+    deprecated: This is a stub types definition. react-icons provides its own type definitions, so you do not need this installed.
+    dependencies:
+      react-icons: 4.4.0_react@17.0.2
+    transitivePeerDependencies:
+      - react
+    dev: false
+
   /@types/react/17.0.2:
     resolution: {integrity: sha512-Xt40xQsrkdvjn1EyWe1Bc0dJLcil/9x2vAuW7ya+PuQip4UYUaXyhzWmAbwRsdMgwOFHpfp7/FFZebDU6Y8VHA==}
     dependencies:
@@ -1034,7 +1045,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001359
+      caniuse-lite: 1.0.30001449
       colorette: 1.4.0
       electron-to-chromium: 1.4.170
       escalade: 3.1.1
@@ -1079,9 +1090,6 @@ packages:
 
   /camelize/1.0.0:
     resolution: {integrity: sha512-W2lPwkBkMZwFlPCXhIlYgxu+7gC/NUlCtdK652DAJ1JdgV0sTrvuPFshNPrFa1TY2JOkLhgdeEBplB4ezEa+xg==}
-
-  /caniuse-lite/1.0.30001359:
-    resolution: {integrity: sha512-Xln/BAsPzEuiVLgJ2/45IaqD9jShtk3Y33anKb4+yLwQzws3+v6odKfpgES/cDEaZMLzSChpIGdbOYtH9MyuHw==}
 
   /caniuse-lite/1.0.30001449:
     resolution: {integrity: sha512-CPB+UL9XMT/Av+pJxCKGhdx+yg1hzplvFJQlJ2n68PyQGMz9L/E2zCyLdOL8uasbouTUgnPl+y0tccI/se+BEw==}
@@ -1240,7 +1248,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      caniuse-lite: 1.0.30001359
+      caniuse-lite: 1.0.30001449
       postcss: 8.2.15
 
   /cssnano-simple/3.0.0_postcss@8.2.15:
@@ -2451,7 +2459,7 @@ packages:
       browserify-zlib: 0.2.0
       browserslist: 4.16.6
       buffer: 5.6.0
-      caniuse-lite: 1.0.30001359
+      caniuse-lite: 1.0.30001449
       chalk: 2.4.2
       chokidar: 3.5.1
       constants-browserify: 1.0.0

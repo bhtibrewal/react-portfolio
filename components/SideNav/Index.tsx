@@ -10,6 +10,7 @@ const Index: FC = () => {
           <a href={href} target="_blank" rel="noreferrer">
             <Icon size={24} aria-hidden="true" />
           </a>
+          <label>{label}</label>
         </li>
       ))}
     </StyledSideNav>

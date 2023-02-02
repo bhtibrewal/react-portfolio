@@ -104,6 +104,7 @@ export const StyledHeader = styled.header`
       transform-origin: 50% 50%;
       transform: translateY(4px) scale(1, 1);
       transition: transform 0.2s ease-in;
+      filter: drop-shadow(3px -3px 7px #222);
     }
 
     .image:hover {

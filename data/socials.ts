@@ -1,5 +1,5 @@
 import { SiHashnode } from "react-icons/si";
-import { FiTwitter, FiGithub } from "react-icons/fi";
+import { FiTwitter, FiGithub, FiMail } from "react-icons/fi";
 import { RiLinkedinLine } from "react-icons/ri";
 
 export let socials = [
@@ -19,8 +19,8 @@ export let socials = [
     label: "linkedin",
   },
   {
-    href: "https://bhavika-tibrewal.hashnode.dev/",
-    Icon: SiHashnode,
-    label: "hashnode",
+    href: "mailto:bhtibrewal@gmail.com",
+    Icon: FiMail,
+    label: "mail",
   },
 ];

@@ -10,15 +10,10 @@ export const GetHashnodeBlogsFromUsername = gql`
         title
         posts(page: $page) {
           _id
-          followersCount
           slug
           title
-          totalReactions
-          isActive
-          dateAdded
           brief
           coverImage
-          
         }
       }
     }

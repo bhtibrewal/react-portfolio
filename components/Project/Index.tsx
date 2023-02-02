@@ -9,9 +9,9 @@ const Index: FC<Project> = ({
   tech,
   live,
   source,
-
   image,
   name,
+  id,
 }) => {
   const projectRef = useRef<null | HTMLElement>(null);
   const [showPreview, setShowPreview] = useState(false);
@@ -41,17 +41,19 @@ const Index: FC<Project> = ({
           </div>
         </div>
         <section className="project__details">
-          <header>
-            <h3>{heading}</h3>
-          </header>
-
-          {/* <ul aria-label="technologies used" className="technologies">
-            {tech.map((t) => (
-              <li key={t} className="tech">
-                {t}
+          <h3>{heading}</h3>
+          {paragraphs.map((paragraph, i) => (
+            <p key={i} className="project__para">
+              {paragraph}
+            </p>
+          ))}
+          <ul aria-label="technologies" className="technologies">
+            {tech.map((t, i) => (
+              <li key={i} className="project__tech">
+                {<t.Icon />}
               </li>
             ))}
-          </ul> */}
+          </ul>
           <div className="project__links">
             <a
               className="btn btn__secondary"

@@ -2,11 +2,12 @@ import { FC } from "react";
 import Fade from "react-reveal/Fade";
 import { technologies } from "../data/technologies";
 import { StyledSubSection } from "./Style/StyledHeader";
+import { StyledSection } from "./Style/StyledSection";
 
 const Technologies: FC = () => {
   return (
     <Fade right>
-      <StyledSubSection className="section__content-skills">
+      <StyledSection className="section__content-skills">
         <header>
           <h3>Skills and Technologies</h3>
         </header>
@@ -18,7 +19,7 @@ const Technologies: FC = () => {
             </div>
           ))}
         </div>
-      </StyledSubSection>
+      </StyledSection>
     </Fade>
   );
 };

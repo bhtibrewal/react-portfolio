@@ -1,7 +1,10 @@
+import { IconType } from "react-icons";
+
 export interface Project {
+  id?: number;
   heading: string;
   paragraphs: string[];
-  tech: string[];
+  tech: { name: string; Icon: IconType }[];
   source: string;
   live: string;
   youtubeUrl?: string;

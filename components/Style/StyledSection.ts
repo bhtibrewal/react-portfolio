@@ -19,30 +19,36 @@ export const StyledSection = styled.section`
       }
 
       &-skills {
+        margin: auto;
       }
     }
 
     &__header {
       &-main {
         margin-bottom: 5.4rem;
-        text-align: center;
-
+        text-align: left;
+        display: flex;
+        align-items: center; 
+        gap: 1rem;
+        &-count {
+          color: red;
+        }
         &-head {
           position: relative;
           width: max-content;
-          margin: 0 auto 1rem;
+          margin-bottom: 1rem;
 
           &::after {
             content: "";
             display: block;
             position: absolute;
-            bottom: -0.2rem;
-            left: 0;
-            right: 0;
-            height: 0.1rem;
-            width: 45%;
-            margin-right: auto;
-            margin-left: auto;
+            bottom: 50%;
+            left: 100%;
+            height: 1px;
+            min-width: 100%;
+            opacity: 50%;
+            max-width: 300px;
+            margin-left: 10px;
             background-color: red;
           }
         }

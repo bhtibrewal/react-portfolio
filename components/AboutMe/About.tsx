@@ -7,7 +7,10 @@ const About: FC = () => {
   return (
     <Fade left>
       <StyledSubSection className="section__content-about">
-        <h2 className="section__header-main-head">About Me</h2>
+        <header className="section__header-main">
+          <span className="section__header-main-count">01.</span>
+          <h2 className="section__header-main-head">About Me</h2>
+        </header>
         <p className="">
           I&apos;m a <strong>Frontend Developer</strong> whose whole interest is
           building interactive, accessible, and responsive websites. My project

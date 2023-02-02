@@ -4,7 +4,6 @@ export const StyledBlogs = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
   gap: 2rem;
-  padding: 2.5rem;
   align-items: stretch;
 
   .hashnode-blog-post-card {
