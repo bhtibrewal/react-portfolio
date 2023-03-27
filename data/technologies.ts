@@ -3,28 +3,32 @@ import {
   SiCss3,
   SiGraphql,
   SiHtml5,
-  SiNextdotjs,
   SiReact,
   SiRedux,
   SiTailwindcss,
   SiTypescript,
+  SiJest,
+  SiTestinglibrary,
+  SiExpress,
 } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
-import { FaEmber, FaSass } from "react-icons/fa";
+import { FaEmber } from "react-icons/fa";
 
 export const technologies = [
   { name: "ReactJs", Icon: SiReact },
   { name: "Redux", Icon: SiRedux },
   { name: "Javascript", Icon: IoLogoJavascript },
-  { name: "NextJs", Icon: SiNextdotjs },
+  { name: "Typescript", Icon: SiTypescript },
+  { name: "Jest", Icon: SiJest },
+  { name: "RTL", Icon: SiTestinglibrary },
   { name: "Tailwindcss", Icon: SiTypescript },
   { name: "GraphQL", Icon: SiGraphql },
-  { name: "HTML", Icon: SiHtml5 },
   { name: "CSS", Icon: SiCss3 },
+  { name: "ExpressJs", Icon: SiExpress },
   { name: "Figma", Icon: FiFigma },
   { name: "Tailwind", Icon: SiTailwindcss },
   { name: "ember", Icon: FaEmber },
-  { name: "Scss", Icon: FaSass },
+  { name: "HTML", Icon: SiHtml5 },
   // "Styled-components",
 
   // "React-query",

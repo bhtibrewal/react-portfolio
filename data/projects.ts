@@ -15,6 +15,8 @@ export const projects: Project[] = [
     tech: [
       { name: "ReactJs", Icon: SiReact },
       { name: "CSS", Icon: SiCss3 },
+      { name: "Jest", Icon: SiJest },
+      {name:"Typescript", Icon: SiTypescript},
     ],
     source: "https://github.com/Olaleye-Blessing/muvus",
     live: "https://artsyshop.netlify.app/",
@@ -25,11 +27,14 @@ export const projects: Project[] = [
     name: "Artsy Social",
     heading: "Artsy Social",
     paragraphs: [
-      "Artsy Shop is an e-commerce platform built for selling paintings with Reactjs and Razorpay payment intergration.",
+      "Artsy Social is an social media platform.",
     ],
     tech: [
       { name: "Redux", Icon: SiRedux },
       { name: "ReactJs", Icon: SiReact },
+      { name: "CSS", Icon: SiCss3 },
+      { name: "Figma", Icon: FiFigma },
+      { name: "ExpressJs", Icon: SiExpress },
     ],
     source: "https://github.com/bhtibrewal/artsy-social",
     live: "https://artsysocial.netlify.app/",
@@ -38,7 +43,7 @@ export const projects: Project[] = [
   {
     name: "Artsy Stream",
     heading: "Artsy Stream",
-    paragraphs: [],
+    paragraphs: ["A video streaming platform built with React"],
     tech: [{ name: "ReactJs", Icon: SiReact }],
     source: "https://github.com/bhtibrewal/artsy-stream",
     live: "https://artsystream.netlify.app/videos",
