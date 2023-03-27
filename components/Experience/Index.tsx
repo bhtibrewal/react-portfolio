@@ -12,7 +12,7 @@ const Index: FC = () => {
         </header>
 
         <h3>Forntend Developer @Rupifi </h3>
-        <p>Sept'22 - Present</p>
+        <p>Sept&apos;22 - Present</p>
         <div className="experience_details ">
           <p>
             I worked on the onboarding platform, contributing to the development
@@ -27,7 +27,7 @@ const Index: FC = () => {
           <p>
             Stayed up-to-date with the latest frontend development trends and
             technologies like react-query, exploring new tools and frameworks
-            that enhanced the onboarding platform's functionality and
+            that enhanced the onboarding platform&apos;s functionality and
             performance.
           </p>
         </div>
