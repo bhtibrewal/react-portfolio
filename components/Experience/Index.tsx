@@ -13,24 +13,24 @@ const Index: FC = () => {
 
         <h3>Forntend Developer @Rupifi </h3>
         <p>Sept&apos;22 - Present</p>
-        <div className="experience_details ">
-          <p>
+        <ul className="experience_details ">
+          <li>
             I worked on the onboarding platform, contributing to the development
             of user-friendly interfaces that enabled smooth onboarding
             experiences for new users.
-          </p>
-          <p>
+          </li>
+          <li>
             Collaborated with the design and development team to implement new
             features, enhancements, and updates to the platform, ensuring a
             smooth and seamless development process.
-          </p>
-          <p>
+          </li>
+          <li>
             Stayed up-to-date with the latest frontend development trends and
             technologies like react-query, exploring new tools and frameworks
             that enhanced the onboarding platform&apos;s functionality and
             performance.
-          </p>
-        </div>
+          </li>
+        </ul>
       </Fade>
     </StyledSection>
   );

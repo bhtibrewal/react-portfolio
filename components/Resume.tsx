@@ -5,7 +5,7 @@ import { StyledResume } from "./Style/StyledResume";
 const Resume: FC = () => {
   return (
     <StyledResume
-      href="https://drive.google.com/file/d/1K1PqKKs6tk2NJ7Rg1lhZKq37uFWEPPHd/view?usp=share_link"
+      href="https://drive.google.com/file/d/1elsW4Ra1PXIkaWNiqOsb2yC0hn2lfGL8/view?usp=share_link"
       target="_blank"
       rel="noreferrer noopener"
     >

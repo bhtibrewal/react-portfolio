@@ -11,7 +11,8 @@ export const StyledHeader = styled.header`
   justify-content: center;
 
   h1,
-  p, .header__links {
+  p,
+  .header__links {
     max-width: 50rem;
   }
 
@@ -124,8 +125,6 @@ export const MainPage = styled.main`
 `;
 
 export const StyledSubSection = styled.section`
-  margin-bottom: 5rem;
-
   h3 {
     text-align: left;
     font-size: 2.1rem;

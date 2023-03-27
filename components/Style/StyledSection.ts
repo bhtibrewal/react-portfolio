@@ -25,7 +25,7 @@ export const StyledSection = styled.section`
 
     &__header {
       &-main {
-        margin-bottom: 5.4rem;
+        margin-bottom: 4rem;
         text-align: left;
         display: flex;
         align-items: center;
@@ -74,8 +74,8 @@ export const StyledSection = styled.section`
   }
   .experience_details {
     margin-left: 2rem;
-    p {
-      margin-bottom: 1rem;
+    li {
+      margin-top: 1rem;
       opacity: 0.8;
     }
   }
