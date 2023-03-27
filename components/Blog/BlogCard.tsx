@@ -13,7 +13,7 @@ export const BlogCard = ({ post }: { post: IPost }) => {
         />
       </div>
       <div className="hashnode-blog-post-card-title">
-        <a href={`/${slug}`}>{title}</a>
+        <a href={`https://bhavika-tibrewal.hashnode.dev/${slug}`}>{title}</a>
       </div>
       <p className="hashnode-blog-post-card-desc">{brief}</p>
     </div>
