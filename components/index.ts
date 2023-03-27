@@ -15,3 +15,4 @@ export { default as Header } from "./Header";
 export { default as Select } from "./Input/Select";
 export { default as Meta } from "./Meta";
 export { default as SideNav } from "./SideNav/Index";
+export { default as Experience } from "./Experience/Index";

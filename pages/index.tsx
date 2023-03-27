@@ -1,5 +1,12 @@
 import type { NextPage } from "next";
-import { AboutMe, Header, Projects, Resume, Technologies } from "../components";
+import {
+  AboutMe,
+  Experience,
+  Header,
+  Projects,
+  Resume,
+  Technologies,
+} from "../components";
 import { Meta } from "../modules/Home";
 import { MainPage } from "../components/Style/StyledHeader";
 import Blog from "../components/Blog/Index";
@@ -12,6 +19,7 @@ const Home: NextPage = () => {
       <Header />
       <MainPage>
         <div className="container">
+          <Experience />
           <AboutMe />
           <Technologies />
           <Projects />

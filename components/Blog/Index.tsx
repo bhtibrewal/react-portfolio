@@ -25,7 +25,7 @@ const Blogs = ({ username }: { username: string }) => {
     <StyledSection id="blogs" aria-label="Blog's Section">
       <Fade top>
         <header className="section__header-main">
-        <span className="section__header-main-count">03.</span>
+        <span className="section__header-main-count">04.</span>
           <h2 className="section__header-main-head"> Blogs</h2>
         </header>
       </Fade>

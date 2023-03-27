@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Project } from "../../interface";
 
-export const StyledProject = styled.li`
+export const StyledProject = styled.div`
   margin-bottom: 8rem;
 
   &:nth-child(even) {

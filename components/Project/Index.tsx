@@ -47,11 +47,11 @@ const Index: FC<Project> = ({
               {paragraph}
             </p>
           ))}
-          <ul aria-label="technologies" className="technologies">
+          <ul aria-label="technologies" className="technologies list_style_none">
             {tech.map((t, i) => (
-              <li key={i} className="project__tech">
+              <span key={i} className="project__tech">
                 {<t.Icon />}
-              </li>
+              </span>
             ))}
           </ul>
           <div className="project__links">

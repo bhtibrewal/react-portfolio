@@ -28,7 +28,7 @@ export const StyledSection = styled.section`
         margin-bottom: 5.4rem;
         text-align: left;
         display: flex;
-        align-items: center; 
+        align-items: center;
         gap: 1rem;
         &-count {
           color: red;
@@ -70,6 +70,13 @@ export const StyledSection = styled.section`
         margin-left: auto;
         margin-right: auto;
       }
+    }
+  }
+  .experience_details {
+    margin-left: 2rem;
+    p {
+      margin-bottom: 1rem;
+      opacity: 0.8;
     }
   }
 

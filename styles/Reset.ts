@@ -25,7 +25,7 @@ const Reset = createGlobalStyle`
         display: block;
     }
 
-    ol, ul {
+    .list_style_none {
         list-style: none;
     }
 

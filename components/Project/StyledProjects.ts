@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledProjects = styled.ul`
+export const StyledProjects = styled.div`
   @media screen and (min-width: 769px) {
     // display: grid;
     // grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
