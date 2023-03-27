@@ -3,7 +3,8 @@ import Shop from "./../public/static/images/projects/Shop.png";
 import Social from "./../public/static/images/projects/Social.png";
 import Stream from "./../public/static/images/projects/Stream.png";
 import FoodCheck from "./../public/static/images/projects/foodcheck.webp";
-import { SiCss3, SiReact, SiRedux } from "react-icons/si";
+import { SiCss3, SiReact, SiRedux, SiJest , SiTypescript, SiExpress} from "react-icons/si";
+import { FiFigma } from "react-icons/fi";
 
 export const projects: Project[] = [
   {
@@ -16,7 +17,7 @@ export const projects: Project[] = [
       { name: "ReactJs", Icon: SiReact },
       { name: "CSS", Icon: SiCss3 },
       { name: "Jest", Icon: SiJest },
-      {name:"Typescript", Icon: SiTypescript},
+      { name: "Typescript", Icon: SiTypescript },
     ],
     source: "https://github.com/Olaleye-Blessing/muvus",
     live: "https://artsyshop.netlify.app/",
@@ -26,9 +27,7 @@ export const projects: Project[] = [
   {
     name: "Artsy Social",
     heading: "Artsy Social",
-    paragraphs: [
-      "Artsy Social is an social media platform.",
-    ],
+    paragraphs: ["Artsy Social is an social media platform."],
     tech: [
       { name: "Redux", Icon: SiRedux },
       { name: "ReactJs", Icon: SiReact },
