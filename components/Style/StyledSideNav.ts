@@ -6,8 +6,8 @@ export const StyledSideNav = styled.div`
   flex-direction: column;
   padding: 1.5rem 0.8rem;
   width: fit-content;
-  box-shadow: 4px 4px 18px 1px var(--color-black-200);
-  background: var(--bg-main);
+  box-shadow: 4px 4px 8px -2px var(--color-gray-600);
+  background: var(--fg-primary);
   border-radius: 20px;
   position: fixed;
   top: 50vh;

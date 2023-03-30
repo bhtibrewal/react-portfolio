@@ -73,7 +73,7 @@ export const StyledHeader = styled.header`
   }
 
   @media screen and (min-width: 769px) {
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     padding: 0;
 
@@ -105,7 +105,7 @@ export const StyledHeader = styled.header`
       transform-origin: 50% 50%;
       transform: translateY(4px) scale(1, 1);
       transition: transform 0.2s ease-in;
-      filter: drop-shadow(3px -3px 7px #222);
+      // filter: drop-shadow(3px -3px 7px #222);
     }
 
     .image:hover {

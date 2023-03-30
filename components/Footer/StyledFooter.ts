@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
-  background-color: var(--color-black-200);
-  background-image: url("/static/images/footer.svg");
+background-color: var(--color-gray-900);
+  // background-image: url("/static/images/footer.svg");
   background-repeat: no-repeat;
   background-position: top -2rem center;
   background-size: cover;

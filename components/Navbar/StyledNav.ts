@@ -12,10 +12,7 @@ export const StyledNav = styled.nav`
 
   &.scrolled {
     box-shadow: var(--box-shadow-md);
-    background-color: var(--bg-blurred);
-    background-color: rgba(14, 20, 27, 0.8);
-    /* background-color: rgba(169, 185, 204, 0.5); */
-    /* background-color: rgba(115, 130, 148, 0.3); */
+    background-color: var(--color-gray-900);
   }
 
   .nav {

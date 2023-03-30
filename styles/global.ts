@@ -3,16 +3,16 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
 
     :root {
-        --bg-main: #27282a;
+        --bg-main: ##f2f5f7;
         --bg-primary: #182635;
         --bg-blurred: #0e141b;
 
-        --fg-main: #ffffff;
+        --fg-main: #15191c;
         --fg-primary: #f2f5f7;
 
         --color-red: #ff0a78;
         --color-red-100: #fa3879;
-        --color-red-200: #fa38798c;
+        --color-red-200: var(--bg-blurred);
 
         --home-bg: hsla(200deg, 100%, 85%, 0.1);
         --home-bg-sec: hsla(200deg, 100%, 85%, 0);
@@ -30,7 +30,7 @@ const GlobalStyle = createGlobalStyle`
         --shadow: 0 0.1rem 0.1rem hsl(0deg 0% 0% / 0.075);
         --shadow-last: 0 16px 16px hsl(0deg 0% 0% / 0.075);
 
-        --box-shadow-md: var(--shadow), var(--shadow), var(--shadow), var(--shadow), var(--shadow-last);
+        // --box-shadow-md: var(--shadow), var(--shadow), var(--shadow), var(--shadow), var(--shadow-last);
 
         --font-primary: 'Poppins', sans-serif;
         --font-secondary: 'Nunito', sans-serif;
@@ -38,6 +38,16 @@ const GlobalStyle = createGlobalStyle`
 
         --border-rad-sm: 0.7rem;
         --border-rad-md: 1rem;
+    }
+    :root.dark{
+        --bg-main: #27282a;
+
+        --fg-main: #ffffff;
+        --shadow: 0 0.1rem 0.1rem hsl(0deg 0% 0% / 0.075);
+        --shadow-last: 0 16px 16px hsl(0deg 0% 0% / 0.075);
+        --color-red: #ff0a78;
+        --color-red-100: #fa3879;
+        --color-red-200: #fa38798c;
     }
 
     html {
@@ -121,7 +131,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     .btn {
-        color: var(--fg-main);
+        color:var(--fg-primary);
         padding: 0.9rem 1.8rem 1rem;
         text-decoration: none;
 
@@ -179,6 +189,7 @@ const GlobalStyle = createGlobalStyle`
 
     .tech {
         background-color: var( --color-red-100);
+        color: var(--fg-primary);
         padding: 1rem;
         border-radius: var(--border-rad-sm);
         font-size: 1.4rem;
@@ -189,7 +200,12 @@ const GlobalStyle = createGlobalStyle`
         align-items: center;
         justify-content: center;
         aspect-ratio: 1;
-        box-shadow: inset 0 -23px 25px 0 rgb(0 0 0 / 17%), inset 0 -36px 30px 0 rgb(0 0 0 / 15%), inset 0 -79px 40px 0 rgb(0 0 0 / 10%), 0 2px 1px rgb(0 0 0 / 6%), 0 4px 2px rgb(0 0 0 / 9%), 0 8px 4px rgb(0 0 0 / 9%), 0 16px 8px rgb(0 0 0 / 9%), 0 32px 16px rgb(0 0 0 / 9%);
+        box-shadow: inset 0 -23px 25px 0 rgb(0 0 0 / 17%)
+        , inset 0 -36px 30px 0 rgb(0 0 0 / 15%)
+        , inset 0 -79px 40px 0 rgb(0 0 0 / 10%)
+        , 0 2px 1px rgb(0 0 0 / 6%), 0 4px 2px rgb(0 0 0 / 9%)
+        , 0 8px 4px rgb(0 0 0 / 9%), 0 16px 8px rgb(0 0 0 / 9%)
+        , 0 32px 16px rgb(0 0 0 / 9%);
     }
     .tech:hover{
         transform: rotateZ(45deg) scale(1.2);

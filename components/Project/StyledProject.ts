@@ -36,18 +36,18 @@ export const StyledProject = styled.div`
       margin-left: -2rem;
       z-index: 1;
       border-radius: 6px;
-      color: var(--bg-blurred);
+      color: var(--fg-primary);
       background: linear-gradient(
         to top left,
         var(--color-red),
         var(--color-red-100)
       );
       padding: 2rem;
-      box-shadow: inset 0 -23px 25px 0 rgb(0 0 0 / 17%),
-        inset 0 -36px 30px 0 rgb(0 0 0 / 15%),
-        inset 0 -79px 40px 0 rgb(0 0 0 / 10%), 0 2px 1px rgb(0 0 0 / 6%),
-        0 4px 2px rgb(0 0 0 / 9%), 0 8px 4px rgb(0 0 0 / 9%),
-        0 16px 8px rgb(0 0 0 / 9%), 0 32px 16px rgb(0 0 0 / 9%);
+      box-shadow: inset 0 -23px 25px 0 rgb(50 50 50 / 17%),
+        inset 0 -36px 30px 0 rgb(50 50 50 / 15%),
+        inset 0 -79px 40px 0 rgb(50 50 50 / 10%), 0 2px 1px rgb(50 50 50 / 6%),
+        0 4px 2px rgb(50 50 50 / 9%), 0 8px 4px rgb(50 50 50 / 9%),
+        0 16px 8px rgb(50 50 50 / 9%), 0 32px 16px rgb(50 50 50 / 9%);
     }
 
     &__details {
