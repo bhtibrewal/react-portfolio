@@ -145,16 +145,18 @@ export const StyledProject = styled.div`
     }
   }
 
-  @media screen and (min-width: 769px) {
-    .project {
-      &__details {
-      }
-
-      &__figures {
-      }
-
-      &__img {
-        width: 100%;
+  @media screen and (max-width: 420px) {
+    article {
+      flex-wrap: wrap;
+    }
+    .project__para {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    &:nth-child(even){
+      .project__para {
+        margin-left: 0;
+        margin-right: 0;
       }
     }
   }

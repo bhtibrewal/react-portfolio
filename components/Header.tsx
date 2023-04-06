@@ -20,7 +20,7 @@ const Header: FC = () => {
           </Link>
           <a
             className="btn__secondary btn"
-            href="https://drive.google.com/file/d/1elsW4Ra1PXIkaWNiqOsb2yC0hn2lfGL8/view?usp=share_link"
+            href="https://drive.google.com/file/d/1cLGLJe13ACsfR7aqxgpv9HD4qwBHhtBp/view?usp=sharing"
             target="_blank"
             rel="noreferrer noopener"
           >

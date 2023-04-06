@@ -15,20 +15,25 @@ const Index: FC = () => {
         <p>Sept&apos;22 - Present</p>
         <ul className="experience_details ">
           <li>
-            I worked on the onboarding platform, contributing to the development
-            of user-friendly interfaces that enabled smooth onboarding
-            experiences for new users.
+            I worked on the onboarding platform and developed user-friendly
+            interfaces that enhanced onboarding experiences for new users by
+            30%.
           </li>
           <li>
-            Collaborated with the design and development team to implement new
-            features, enhancements, and updates to the platform, ensuring a
-            smooth and seamless development process.
+            Collaborated with the design and backend team to develop and
+            implement front architecture for user-facing features used by over
+            20k users.
           </li>
           <li>
-            Stayed up-to-date with the latest frontend development trends and
-            technologies like react-query, exploring new tools and frameworks
-            that enhanced the onboarding platform&apos;s functionality and
-            performance.
+            Stayed up-to-date with the latest tools and frameworks like react-
+            query, jotai that enhanced the onboarding platform's functionality
+            and performance by over 50%.
+          </li>
+          <li>
+         
+            Understanding the business logic to deliver the technical
+            requirements and debugging the issues faced by users. Working on the
+            development cycle of the project from CI/CD to deployment.
           </li>
         </ul>
       </Fade>

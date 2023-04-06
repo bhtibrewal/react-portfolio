@@ -14,6 +14,10 @@ export const StyledSideNav = styled.div`
   left: 40px;
   z-index: 2;
 
+  @media screen and (max-width: 420px) {
+    display: none;
+  }
+
   li {
     list-style: none;
   }
