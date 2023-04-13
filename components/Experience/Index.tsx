@@ -26,11 +26,10 @@ const Index: FC = () => {
           </li>
           <li>
             Stayed up-to-date with the latest tools and frameworks like react-
-            query, jotai that enhanced the onboarding platform's functionality
-            and performance by over 50%.
+            query, jotai that enhanced the onboarding platform&apos;s
+            functionality and performance by over 50%.
           </li>
           <li>
-         
             Understanding the business logic to deliver the technical
             requirements and debugging the issues faced by users. Working on the
             development cycle of the project from CI/CD to deployment.
